@@ -128,3 +128,32 @@ a.regulation-usercredit:hover {
     border-width: 10px 20px 10px 20px !important;
     border: solid #222;
 }
+
+/******** credit ********/
+
+.regulation-credit {
+    width: 100%;
+    margin: auto;
+    background-color: #000;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.regulation-credit a, .regulation-break {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    font-family: Helvetica;
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.regulation-credit a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
