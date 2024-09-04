@@ -87,6 +87,15 @@ regulation-fanmade {
     margin: 0px 20px;
 }
 
+regulation-fanmade a i {
+    margin-left: 5px;
+    color: #ffffffbd;
+}
+
+.fas, .fa-solid {
+    font-weight: 900;
+}
+
 a.regulation-usercreated, a.regulation-usercredit {
     background-color: #121212;
     border: solid #121212;
